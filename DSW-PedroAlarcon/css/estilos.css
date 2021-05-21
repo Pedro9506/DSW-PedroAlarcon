@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  
+
   body {
     background: #ecf0f1;
     font-family: sans-serif;
@@ -169,11 +164,15 @@
     clear: both;
     padding: 2%;
   }
-  
-  footer {
-    background: #2c3e50;
-    width: 100%;
-    overflow: auto;
+  footer{
+ 
+    color: white;
+  }
+ .contenedor::after{
+content: "";
+display: block;
+clear: both;
+ }
   }
   .icon-text {
     width: 100%;
